@@ -1,0 +1,31 @@
+{
+  "name": "three-geo-3dmap",
+  "version": "1.0.0",
+  "description": "Base on three.js、lodash、TweenJs、three-orbit-controls, use geojson draws 3Dmap.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ada87/three-geo-map.git"
+  },
+  "author": "http://www.xdnote.com/",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "copy-webpack-plugin": "^4.1.1",
+    "source-map-loader": "^0.2.2",
+    "stats.js": "^0.17.0",
+    "webpack": "^3.7.1"
+  },
+  "dependencies": {
+    "@tweenjs/tween.js": "^17.1.1",
+    "d3": "^4.11.0",
+    "lodash": "^4.17.4",
+    "three": "^0.87.1",
+    "three-orbit-controls": "^82.1.0"
+  }
+}
